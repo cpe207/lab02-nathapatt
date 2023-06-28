@@ -3,38 +3,107 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>My Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body class="original-gradient">
-    <h3 style="text-align: center; font-size: 30px">My Portfolio</h3>
-    <div>
-      <img
-        src="images/MV5BMzFiNWY2MGQtMTVjZS00NTZhLWJhOGEtYzRjMGY0MzQxMDA1XkEyXkFqcGdeQWxiaWFtb250._V1_.jpg"
-        width="360px"
-        style="margin-left: auto; margin-right: auto; display: block"
-      />
-    </div>
-    <h3 style="text-align: center">Nathapat Nerangsi</h3>
-    <p style="font-size: 15px; text-align: center">
-      My name is Mind. Hi! Nice to meet you all. <br />
-    </p>
-    <h3 style="text-align: center">Skills</h3>
-    <div class="skill-container">
-      <h3 class="skill-header">Programming</h3>
-      <p>I can code c++</p>
+    <div class="d-flex justify-content-center gap-5 fw-bold my-4">
+      <a href="index.html" class="btn1 text-center"> Home</a>
+      <a href="exp.html" class="btn2 text-center"> Experience</a>
+      <a href="gallery.html" class="btn4 text-center"> Gallery</a>
+      <a href="contact.html" class="btn3 text-center"> Contact</a>
     </div>
 
-    <div class="skill-container">
-      <h3 class="skill-header">Guitar skill</h3>
-      <p>I can play a guitar🎵</p>
+    <div
+      class="border border-0 justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 700px"
+    >
+      <div class="d-flex gap-2 align-items-center">
+        <img
+          src="images/helloworld.jpg"
+          width="200px"
+          height="200px"
+          class="rounded-circle"
+          style="object-fit: cover"
+        />
+        <div class="d-none d-sm-block">
+          <div class="display-5 mb-3 fw-bold">Nathapat Nerangsi</div>
+          <div class="text-muted text-black-50">
+            Hi, my name is Nathapat. I graduated from Chiangmai University.
+            Studied Computer Engineering. Hope you guys enjoy my website💗
+          </div>
+        </div>
+      </div>
     </div>
-    <p style="text-align: center">
-      <a href="index.html" class="btn1"> Home</a>
-      |
-      <a href="exp.html" class="btn2"> Experience</a>
-      |
-      <a href="contact.html" class="btn3"> Contact!</a>
+
+    <p class="text-center fs-3">Skills</p>
+
+    <div style="max-width: 700px" class="mx-auto px-3">
+      <div class="d-flex border border-secondary mb-3 shadow-sm my-rounded-all">
+        <div class="my-rounded-left">
+          <img
+            src="images/regular_1708x683_cover-0828_AfterAllTheseYearstheWorldisStillPoweredbyCProgramming_Razvan_Newsletter-2b9ea38294bb08c5aea1f0c1cb06732f.png"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Programming</p>
+          <span class="text-muted text-black-50">
+            I can code program in C++ language and studying css,html,javascript.
+          </span>
+        </div>
+      </div>
+
+      <div class="d-flex border border-secondary mb-3 shadow-sm my-rounded-all">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Guitar Skills</p>
+          <span class="text-muted text-black-50">
+            I used to learn guitar when I was in elementary school. Afterwards,I
+            like to play guitar almost every day❄.
+          </span>
+        </div>
+        <div class="my-rounded-right">
+          <img
+            src="images/S__55500815.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-right d-none d-sm-block"
+          />
+        </div>
+      </div>
+
+      <div class="d-flex border border-secondary mb-3 shadow-sm my-rounded-all">
+        <div class="my-rounded-left">
+          <img
+            src="images/8f479cb0f198bbe7890fff8d4a9fc463.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="my-rounded-left d-none d-sm-block"
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Sports</p>
+          <span class="text-muted text-black-50">
+            I really like playing sports. So I can play many sports such as
+            Football,Basketball,Tennis.
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <p class="text-center text-muted m-4">
+      © 2023 nathapat-nerangsi.com by Nathapat Nerangsi
     </p>
   </body>
 </html>
